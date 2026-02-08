@@ -1,0 +1,336 @@
+{
+  "single_gyle_settings": {
+    "target_beer": "PA2",
+    "batch_size_litres": 24.0,
+    "target_efficiency_percent": 75.0,
+    "revised_boil_time_minutes": 70,
+    "hop_conversion": {
+      "target_form": "pellet",
+      "weight_adjustment_factor": 0.90
+    }
+  },
+  "project_name": "Parti-Gyle: SPA, PA1, PA2, and YPV",
+  "date": "2026-01-22",
+  "version": "1.5",
+  "note": "Imperial barrels (brl) and lb used for volume and weight, EBC, IBU Tinseth, and SG. Hop alphas reduced to 1974 averages less 25% seeds etc",
+  "note": " hop stand time now 90, utilisation factor 0.49 , all Maris Otter   Changed to Torrefied (Flaked) Barley instead of Maize",
+  "units": "Hybrid metric",
+  "conversion": {
+    "imp_brl_to_L": 163.66
+  },
+  "mash_phase": {
+    "system_efficiency_target_percent": 90.5,
+    "note": "High target reflects industrial scale efficiency seen in previous analysis.",
+    "grains": [
+      {
+        "name": "Maris Otter",
+        "weight_lb": 16464.0,
+        "color_ebc": 5,
+        "potential_sg": 1.037
+      },
+      {
+        "name": "Maris Otter",
+        "weight_lb": 9072.0,
+        "color_ebc": 5,
+        "potential_sg": 1.037
+      },
+      {
+        "name": "Torrefied Barley",
+        "weight_lb": 2688.0,
+        "color_ebc": 3,
+        "potential_sg": 1.035
+      }
+    ],
+    "mash_tun_1_output_brl": 270.0,
+    "mash_tun_2_output_brl": 270.0
+  },
+  "runnings_actuals": [
+    {
+      "id": "first_wort",
+      "measured_input_vol_brl": 207,
+      "note": "Input SG not recorded",
+      "measured_sg": 0,
+      "dest_kettle": "copper_1"
+    },
+    {
+      "id": "second_wort",
+      "measured_input_vol_brl": 200.0,
+      "note": "Input SG not recorded",
+      "measured_sg": 0,
+      "dest_kettle": "copper_2"
+    },
+    {
+      "id": "third_wort",
+      "note": "Input SG not recorded",
+      "measured_input_vol_brl": 207.0,
+      "measured_sg": 0,
+      "dest_kettle": "copper_3"
+    }
+  ],
+  "boil_phase": [
+    {
+      "kettle_id": "copper_1",
+      "description": "First Boil",
+      "boil_time_min": 105,
+      "post_boil_volume_brl": 230,
+      "volume_available_for_blending_brl": 200,
+      "measured_sg": 1.077,
+      "utilization_factor": 0.95,
+      "adjuncts": [
+        {
+          "type": "sugar",
+          "name": "No_3 Invert Sugar",
+          "weight_lb": 1344,
+          "color_ebc": 130,
+          "potential_sg": 1.031,
+          "time_min": 105
+        },
+        {
+          "type": "dry_malt_extract",
+          "name": "EDME",
+          "weight_lb": 672,
+          "color_ebc": 11,
+          "potential_sg": 1.044,
+          "time_min": 105
+        },
+        {
+          "type": "colour",
+          "name": "Caramel_150c",
+          "weight_lb": 5.0,
+          "color_ebc": 16000,
+          "potential_sg": 1.03,
+          "time_min": 105
+        }
+      ],
+      "hops_whole": [
+        {
+          "name": "UK_East_Kent_Golding",
+          "alpha": 3.7,
+          "weight_lb": 110,
+          "time_min": 105,
+          "form": "whole"
+        },
+        {
+          "name": "UK_Fuggle",
+          "alpha": 3.3,
+          "weight_lb": 110,
+          "time_min": 105,
+          "form": "whole"
+        }
+      ],
+      "post_boil_steps": [
+        {
+          "step_type": "stand",
+          "description": "Hop Back / Whirlpool Stand",
+          "temperature_c": 90,
+          "duration_min": 30,
+          "utilization_factor_relative": 0.49,
+          "hops": [
+            {
+              "name": "UK_East_Kent_Golding",
+              "alpha": 3.7,
+              "weight_lb": 37,
+              "time_min": 30,
+              "form": "whole"
+            },
+            {
+              "name": "UK_Fuggle",
+              "alpha": 3.3,
+              "weight_lb": 37,
+              "time_min": 30,
+              "form": "whole"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kettle_id": "copper_2",
+      "description": "Second Boil",
+      "boil_time_min": 105,
+      "post_boil_volume_brl": 250,
+      "volume_available_for_blending_brl": 230,
+      "measured_sg": 1.026,
+      "utilization_factor": 1.0,
+      "adjuncts": [
+        {
+          "type": "colour",
+          "name": "Caramel_150c",
+          "weight_lb": 4.0,
+          "color_ebc": 16000,
+          "potential_sg": 1.03,
+          "time_min": 105
+        }
+      ],
+      "hops_whole": [
+        {
+          "name": "UK_East_Kent_Golding",
+          "alpha": 3.7,
+          "weight_lb": 55,
+          "time_min": 105,
+          "form": "whole"
+        },
+        {
+          "name": "UK_Fuggle",
+          "alpha": 3.3,
+          "weight_lb": 55,
+          "time_min": 105,
+          "form": "whole"
+        }
+      ],
+      "post_boil_steps": [
+        {
+          "step_type": "stand",
+          "description": "Hop Back / Whirlpool Stand",
+          "temperature_c": 90,
+          "duration_min": 30,
+          "utilization_factor_relative": 0.49,
+          "hops": [
+            {
+              "name": "UK_East_Kent_Golding",
+              "alpha": 3.7,
+              "weight_lb": 18,
+              "time_min": 30,
+              "form": "whole"
+            },
+            {
+              "name": "UK_Fuggle",
+              "alpha": 3.3,
+              "weight_lb": 18,
+              "time_min": 30,
+              "form": "whole"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kettle_id": "copper_3",
+      "description": "Third Boil",
+      "boil_time_min": 105,
+      "post_boil_volume_brl": 190,
+      "volume_available_for_blending_brl": 173,
+      "measured_sg": 1.013,
+      "utilization_factor": 1.0,
+      "adjuncts": [
+        {
+          "type": "colour",
+          "name": "Caramel_150c",
+          "weight_lb": 3.0,
+          "color_ebc": 16000,
+          "potential_sg": 1.03,
+          "time_min": 105
+        }
+      ],
+      "hops_whole": [
+        {
+          "name": "UK_East_Kent_Golding",
+          "alpha": 3.7,
+          "weight_lb": 27,
+          "time_min": 105,
+          "form": "whole"
+        },
+        {
+          "name": "UK_Fuggle",
+          "alpha": 3.3,
+          "weight_lb": 27,
+          "time_min": 105,
+          "form": "whole"
+        }
+      ],
+      "post_boil_steps": [
+        {
+          "step_type": "stand",
+          "description": "Hop Back / Whirlpool Stand",
+          "temperature_c": 90,
+          "duration_min": 30,
+          "utilization_factor_relative": 0.49,
+          "hops": [
+            {
+              "name": "UK_East_Kent_Golding",
+              "alpha": 3.7,
+              "weight_lb": 9,
+              "time_min": 30,
+              "form": "whole"
+            },
+            {
+              "name": "UK_Fuggle",
+              "alpha": 3.3,
+              "weight_lb": 9,
+              "time_min": 30,
+              "form": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auxiliary_streams": {
+    "hop_sparge": {
+      "active": false,
+      "description": "Hot liquor rinse of Hop Back",
+      "volume_brl": 28,
+      "measured_sg": 1.006,
+      "ibu_contribution": 0,
+      "note": "Low gravity, high aroma liquid retrieved from rinsing hops."
+    },
+    "liquor": {
+      "active": true,
+      "description": "Treated Liquor",
+      "volume_brl": 28,
+      "measured_sg": 1.0,
+      "ibu_contribution": 0,
+      "color_ebc": 0,
+      "note": "Liquor used for OG adjustment."
+    }
+  },
+  "blending_matrix": {
+    "method": "volume_brl",
+    "final_beers": [
+      {
+        "name": "SPA",
+        "target_og": 1.045,
+        "components": {
+          "copper_1": 28.0,
+          "copper_2": 15.0,
+          "copper_3": 17.0,
+          "hop_sparge": 0.0,
+          "liquor": 0.0
+        }
+      },
+      {
+        "name": "PA1",
+        "target_og": 1.036,
+        "components": {
+          "copper_1": 30.0,
+          "copper_2": 38.0,
+          "copper_3": 33.0,
+          "hop_sparge": 0.0,
+          "liquor": 0.0
+        }
+      },
+      {
+        "name": "PA2",
+        "target_og": 1.036,
+        "components": {
+          "copper_1": 134.0,
+          "copper_2": 177.0,
+          "copper_3": 123.0,
+          "hop_sparge": 0.0,
+          "liquor": 21.0
+        }
+      },
+      {
+        "name": "YPV",
+        "target_og": 1.04,
+        "components": {
+          "copper_1": 8.0,
+          "copper_2": 0.0,
+          "copper_3": 0.0,
+          "hop_sparge": 0.0,
+          "liquor": 7.0
+        }
+      }
+    ]
+  }
+}
