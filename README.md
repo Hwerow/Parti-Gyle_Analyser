@@ -1,6 +1,6 @@
 # Parti-Gyle Analyser 1.7
 
-A Python tool for brewers to analyse historical Parti-Gyle brewing records and converts them into scaled Single Gyle recipes (e.g., 24L homebrew batches) compatible with modern brewing software like Brewfather.
+A Python tool for brewers to analyse historical Parti-Gyle brewing records and converts them into scaled Single Gyle recipes (e.g., 24 L homebrew batches) compatible with modern brewing software like Brewfather.
 
 ## Features
 - **Parti-Gyle Analysis:** Calculates Mass Balance, Pre-Boil SG, and Extract for multiple coppers (supports 2 or 3 copper setups).
@@ -21,6 +21,7 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
    git clone [https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git](https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git)
 ## How to Use
 See the Tritun Books YouTube Channel for a more detailed explanation.
+
 Prepare your Data: Create a JSON file describing your Parti-Gyle brew (see examples/ folder).
 
 Run the Tool: Double-click run_analysis.bat.
@@ -41,5 +42,6 @@ Ready for editing to suit your system. [Note Only tested with Brewfather]
 
 
    
+
 
 
