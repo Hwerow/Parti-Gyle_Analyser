@@ -17,4 +17,22 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 ## Installation
 1. Download this repository (Code -> Download ZIP) or clone it:
    ```bash
+
    git clone [https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git](https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git)
+## How to Use
+Prepare your Data: Create a JSON file describing your Parti-Gyle brew (see examples/ folder).
+
+Run the Tool: Double-click run_analysis.bat.
+
+Select Input: A file dialog will appear. Select your JSON file.
+
+Select Target: If multiple beers are defined (e.g., PA1, PA2), select the one you want to brew from the popup list.
+
+Save Output: Choose a folder to save your results. The tool will generate:
+
+- [BeerName]_Analysis.txt: A human-readable report of the chemistry and blending.
+
+- [BeerName]_Recipe.json: A standard JSON recipe file.
+  
+- BeerXML Export: Automatically generates a standard [BeerName]_.xml file for direct import into Brewfather, Beersmith, and Grainfather.
+   
