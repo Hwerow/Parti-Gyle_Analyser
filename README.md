@@ -28,11 +28,15 @@ Select Input: A file dialog will appear. Select your JSON file.
 
 Select Target: If multiple beers are defined (e.g., PA1, PA2), select the one you want to brew from the popup list.
 
-Save Output: Choose a folder to save your results. The tool will generate:
+Save Output: Choose a folder to save your results. You will be prompted for a filename [BeerName]. The tool will generate:
 
-- [BeerName]_Analysis.txt: A human-readable report of the chemistry and blending.
+- [BeerName].txt: A human-readable report of the chemistry and blending, and a recipe.
 
-- [BeerName]_Recipe.json: A standard JSON recipe file.
+- [BeerName].json: A JSON version of the recipe file.
   
-- BeerXML Export: Automatically generates a standard [BeerName]_.xml file for direct import into Brewfather, Beersmith, and Grainfather.
+- BeerXML Export: Automatically generates a standard [BeerName].xml file for direct import into Brewfather, Beersmith, and Grainfather.
+Ready for editing to suit your system. [Note Only tested with Brewfather]
+
+See the Tritun Books YouTube Channel for a more detailed explanation.
    
+
