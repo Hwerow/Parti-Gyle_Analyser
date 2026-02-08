@@ -1,6 +1,6 @@
 # Parti-Gyle Analyser 1.7
 
-A Python tool for brewers to analyse historical Parti-Gyle brewing records and convert them into scaled Single Gyle recipes (e.g., 24L homebrew batches) compatible with modern brewing software like Brewfather.
+A Python tool for brewers to analyse historical Parti-Gyle brewing records and converts them into scaled Single Gyle recipes (e.g., 24L homebrew batches) compatible with modern brewing software like Brewfather.
 
 ## Features
 - **Parti-Gyle Analysis:** Calculates Mass Balance, Pre-Boil SG, and Extract for multiple coppers (supports 2 or 3 copper setups).
@@ -20,6 +20,7 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 
    git clone [https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git](https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git)
 ## How to Use
+See the Tritun Books YouTube Channel for a more detailed explanation.
 Prepare your Data: Create a JSON file describing your Parti-Gyle brew (see examples/ folder).
 
 Run the Tool: Double-click run_analysis.bat.
@@ -28,7 +29,8 @@ Select Input: A file dialog will appear. Select your JSON file.
 
 Select Target: If multiple beers are defined (e.g., PA1, PA2), select the one you want to brew from the popup list.
 
-Save Output: Choose a folder to save your results. You will be prompted for a filename [BeerName]. The tool will generate:
+Save Output: Choose a folder to save your results. You will be prompted for a filename [BeerName]. 
+The tool will generate:
 
 - [BeerName].txt: A human-readable report of the chemistry and blending, and a recipe.
 
@@ -37,6 +39,7 @@ Save Output: Choose a folder to save your results. You will be prompted for a fi
 - BeerXML Export: Automatically generates a standard [BeerName].xml file for direct import into Brewfather, Beersmith, and Grainfather.
 Ready for editing to suit your system. [Note Only tested with Brewfather]
 
-See the Tritun Books YouTube Channel for a more detailed explanation.
+
    
+
 
