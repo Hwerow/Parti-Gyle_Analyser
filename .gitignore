@@ -1,0 +1,11 @@
+```text
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local Analysis Outputs
+*_Analysis.txt
+*_Recipe.json
+# BeerXML Files
+*.xml
+output/
