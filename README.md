@@ -1,4 +1,4 @@
-# Parti-Gyle Analyser 1.7
+# Parti-Gyle Analyser 1.9
 
 A Python tool for brewers to analyse historical Parti-Gyle brewing records and converts them into scaled Single Gyle recipes (e.g., 24 L homebrew batches) compatible with modern brewing software like Brewfather.
 
@@ -8,7 +8,7 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 - **Single Gyle Conversion:** Intelligently apportions ingredients from a complex multi-gyle blend into a single scaled recipe.
 - **Smart Scaling:** - Adjusts for system efficiency (e.g., scaling Industrial ~90% -> Homebrew 75%).
   - Adjusts hop weights based on form (Whole vs. Pellet) and boil time changes.
-- **Detailed Reporting:** Outputs a comprehensive text report, a JSON file, and a BeerXML recipe file.
+- **Detailed Reporting:** Outputs a comprehensive text report, a JSON file, and a BeerXML recipe file suitable for import.
 
 ## Prerequisites
 - **Windows 10/11**
@@ -42,6 +42,7 @@ Ready for editing to suit your system. [Note Only tested with Brewfather]
 
 
    
+
 
 
 
