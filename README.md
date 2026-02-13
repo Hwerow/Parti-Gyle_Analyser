@@ -6,7 +6,8 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 - **Parti-Gyle Analysis:** Calculates Mass Balance, Pre-Boil SG, and Extract for multiple coppers (supports 2 or 3 copper setups).
 - **Advanced Calculations:** Uses the **Tinseth Formula** for IBU and **Morey Equation** for Color (EBC/SRM).
 - **Single Gyle Conversion:** Intelligently apportions ingredients from a complex multi-gyle blend into a single scaled recipe.
-- **Smart Scaling:** - Adjusts for system Brewhouse Efficiency (e.g., scaling Industrial ~90% -> 24 L 72%).
+- **Smart Scaling:**
+  - Adjusts for system Brewhouse Efficiency (e.g., scaling Industrial ~90% -> 24 L 72%).
   - Adjusts hop weights based on form (Whole vs. Pellet) and boil time changes.
 - **Detailed Reporting:** Outputs a comprehensive text report, a JSON file, and a BeerXML recipe file suitable for import.
 
@@ -42,6 +43,7 @@ Ready for editing to suit your system. [Note Only tested with Brewfather]
 
 
    
+
 
 
 
