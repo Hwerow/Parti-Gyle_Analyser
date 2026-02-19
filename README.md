@@ -9,7 +9,7 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 - **Smart Scaling:**
   - Adjusts for system Brewhouse Efficiency (e.g., scaling Industrial ~90% -> 24 L 72%).
   - Adjusts hop weights based on form (Whole vs. Pellet) and boil time changes.
-- **Detailed Reporting:** Outputs a comprehensive text report, a JSON file, and a BeerXML recipe file suitable for import.
+- **Detailed Reporting:** Outputs a comprehensive text report, a JSON file, and a BeerXML recipe file suitable for import to brewing software.
 
 ## Prerequisites
 - **Windows 10/11**
@@ -43,6 +43,7 @@ Ready for editing to suit your system. [Note Only tested with Brewfather]
 
 
    
+
 
 
 
