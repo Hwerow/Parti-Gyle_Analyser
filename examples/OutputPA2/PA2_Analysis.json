@@ -1,0 +1,99 @@
+{
+  "recipe_name": "Single Gyle: PA2 (24.0L, 70min)",
+  "brewer": "Parti-Gyle Analyser",
+  "type": "All Grain",
+  "target_stats": {
+    "batch_size_L": 24.0,
+    "boil_size_L": 31.78,
+    "boil_time_min": 70,
+    "target_og": 1.036,
+    "calculated_ibu": 22.2,
+    "target_ebc": 12.3,
+    "efficiency_basis_percent": 72.0
+  },
+  "mash_fermentables": [
+    {
+      "name": "Maris Otter",
+      "weight_kg": 3.286,
+      "percent": 85.8,
+      "color_ebc": 5,
+      "potential_sg": 1.037
+    },
+    {
+      "name": "Torrefied Barley",
+      "weight_kg": 0.346,
+      "percent": 9.0,
+      "color_ebc": 3,
+      "potential_sg": 1.035
+    }
+  ],
+  "boil_additions": {
+    "adjuncts": [
+      {
+        "name": "No_3 Invert Sugar",
+        "weight_kg": 0.132,
+        "percent": 3.4,
+        "color_ebc": 130,
+        "potential_sg": 1.031,
+        "time_min": 70
+      },
+      {
+        "name": "EDME",
+        "weight_kg": 0.066,
+        "percent": 1.7,
+        "color_ebc": 11,
+        "potential_sg": 1.044,
+        "time_min": 70
+      },
+      {
+        "name": "Caramel_150c",
+        "weight_g_per_L": 0.05,
+        "total_g": 1.3,
+        "weight_kg": 0.001,
+        "time_min": 70,
+        "color_ebc": 16000,
+        "potential_sg": 1.03
+      }
+    ],
+    "hops": [
+      {
+        "name": "UK_East_Kent_Golding",
+        "usage": "Boil",
+        "form": "pellet",
+        "alpha": 4.2,
+        "weight_g": 18.7,
+        "rate_g_L": 0.78,
+        "time_min": 70
+      },
+      {
+        "name": "UK_Fuggle",
+        "usage": "Boil",
+        "form": "pellet",
+        "alpha": 3.7,
+        "weight_g": 18.7,
+        "rate_g_L": 0.78,
+        "time_min": 70
+      },
+      {
+        "name": "UK_East_Kent_Golding",
+        "usage": "Stand",
+        "form": "pellet",
+        "alpha": 4.2,
+        "weight_g": 5.9,
+        "rate_g_L": 0.25,
+        "time_min": 30,
+        "temp_c": 90
+      },
+      {
+        "name": "UK_Fuggle",
+        "usage": "Stand",
+        "form": "pellet",
+        "alpha": 3.7,
+        "weight_g": 5.9,
+        "rate_g_L": 0.25,
+        "time_min": 30,
+        "temp_c": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+--- Mass Balance & Pre-Boil Analysis ---
+First Boil (copper_1):
+  Pre-Boil SG Est: 1.076
+  Wort Extract from Grain: 566177 gal-pts
+Second Boil (copper_2):
+  Pre-Boil SG Est: 1.032
+  Wort Extract from Grain: 233880 gal-pts
+Third Boil (copper_3):
+  Pre-Boil SG Est: 1.012
+  Wort Extract from Grain: 88829 gal-pts
+
+--- Advanced IBU & EBC Calculation (Parti-Gyle) ---
+Analysis for First Boil:
+  Boil Hop (UK_East_Kent_Golding): 12.5 IBU
+  Boil Hop (UK_Fuggle): 11.0 IBU
+  Stand Hop (UK_East_Kent_Golding): 1.5 IBU
+  Stand Hop (UK_Fuggle): 1.3 IBU
+  >> Total IBU: 26.2
+  >> Estimated EBC (Morey): 21.2
+
+Analysis for Second Boil:
+  Boil Hop (UK_East_Kent_Golding): 9.5 IBU
+  Boil Hop (UK_Fuggle): 8.4 IBU
+  Stand Hop (UK_East_Kent_Golding): 1.1 IBU
+  Stand Hop (UK_Fuggle): 1.0 IBU
+  >> Total IBU: 20.0
+  >> Estimated EBC (Morey): 8.5
+
+Analysis for Third Boil:
+  Boil Hop (UK_East_Kent_Golding): 6.9 IBU
+  Boil Hop (UK_Fuggle): 6.1 IBU
+  Stand Hop (UK_East_Kent_Golding): 0.8 IBU
+  Stand Hop (UK_Fuggle): 0.7 IBU
+  >> Total IBU: 14.5
+  >> Estimated EBC (Morey): 7.4
+
+--- Blending Analysis & Composition ---
+Beer: SPA
+  Source       Vol (brl)  SG       % Vol   
+  ----------------------------------------
+  copper_1     28.0       1.077    46.7    
+  copper_2     15.0       1.026    25.0    
+  copper_3     17.0       1.013    28.3    
+  ----------------------------------------
+  TOTALS:      60.0       1.046   
+  STATS:       IBU: 21.3 | EBC: 14.8 | ABV: 4.7%
+  VARIANCES:   OG: +0.001 (Target 1.045)
+
+Beer: PA1
+  Source       Vol (brl)  SG       % Vol   
+  ----------------------------------------
+  copper_1     30.0       1.077    29.7    
+  copper_2     38.0       1.026    37.6    
+  copper_3     33.0       1.013    32.7    
+  ----------------------------------------
+  TOTALS:      101.0      1.037   
+  STATS:       IBU: 20.0 | EBC: 12.5 | ABV: 3.5%
+  VARIANCES:   OG: +0.001 (Target 1.036)
+
+Beer: PA2
+  Source       Vol (brl)  SG       % Vol   
+  ----------------------------------------
+  copper_1     134.0      1.077    29.5    
+  copper_2     177.0      1.026    38.9    
+  copper_3     123.0      1.013    27.0    
+  liquor       21.0       1.000    4.6     
+  ----------------------------------------
+  TOTALS:      455.0      1.036   
+  STATS:       IBU: 19.4 | EBC: 12.3 | ABV: 3.5%
+  VARIANCES:   OG: +0.000 (Target 1.036)
+
+Beer: YPV
+  Source       Vol (brl)  SG       % Vol   
+  ----------------------------------------
+  copper_1     8.0        1.077    53.3    
+  liquor       7.0        1.000    46.7    
+  ----------------------------------------
+  TOTALS:      15.0       1.041   
+  STATS:       IBU: 14.0 | EBC: 13.8 | ABV: 4.1%
+  VARIANCES:   OG: +0.001 (Target 1.040)
+
+--- Single Gyle Conversion: PA2 ---
+Settings: 24.0L Batch | 31.78L Boil | 72.0% Eff | 70 min
+Hops: Form 'pellet' | Adjustment Factor: 0.9
+
+Fermentables (excluding caramel in %):
+  Maris Otter: 3.286kg (85.8%)
+  Torrefied Barley: 345.9g (9.0%)
+  No_3 Invert Sugar: 131.6g (3.4%)
+  EDME: 65.8g (1.7%)
+  Caramel_150c: 1.3g (0.05 g/L)
+
+Hops (pellet, 70 min boil):
+  UK_East_Kent_Golding (Boil): 18.7g (0.78 g/L) @ 70 min - 10.6 IBU
+  UK_Fuggle (Boil): 18.7g (0.78 g/L) @ 70 min - 9.3 IBU
+  UK_East_Kent_Golding (Stand): 5.9g (0.25 g/L) @ 30 min @ 90C - 1.2 IBU
+  UK_Fuggle (Stand): 5.9g (0.25 g/L) @ 30 min @ 90C - 1.1 IBU
+Total Single Gyle IBU: 22.2
+Variance vs Target: +2.8 IBU
