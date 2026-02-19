@@ -22,6 +22,7 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
    git clone [https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git](https://github.com/YOUR_USERNAME/Parti-Gyle-Analyser.git)
 ## How to Use
 See the Tritun Books YouTube Channel for a more detailed explanation.  https://youtu.be/siDEW_7H4g8
+<img width="955" height="568" alt="2026-02-19_Bitter_Truth" src="https://github.com/user-attachments/assets/c5ba3c9d-e285-4243-a2d9-c60a40cfd4ce" />
 
 Prepare your Data: Create a JSON file describing your Parti-Gyle brews (see examples/ folder). Here you will find JSON for the 1975 Young's PA (Bitter and Special) both as a parti-gyle and as mulitiple gyles of the same beer - as shown in the Youtube video.
 
@@ -43,6 +44,7 @@ Ready for editing to suit your system. [Note Only tested with Brewfather]
 
 
    
+
 
 
 
