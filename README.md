@@ -2,7 +2,7 @@
 
 A Python tool for brewers to analyse historical Parti-Gyle brewing records and converts them into a scaled Single Gyle recipe (e.g., a 24 L batch) compatible with modern brewing software like Brewfather.
 
-UPDATE -  revised data file 1975 PA1_2_3_4_5_PG_1.8.JSON See YouTube for explantory Video. 
+UPDATE -  revised data file 1975 PA1_2_3_4_5_PG_1.8.JSON   See YouTube for explantory Video https://youtu.be/WIqtd1meQtQ. 
 
 ## Features
 - **Parti-Gyle Analysis:** Calculates Mass Balance, Pre-Boil SG, and Extract for multiple coppers (supports 2 or 3 copper setups).
