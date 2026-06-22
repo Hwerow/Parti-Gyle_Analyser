@@ -4,6 +4,8 @@ A Python tool for brewers to analyse historical Parti-Gyle brewing records and c
 
 UPDATE -  revised data file 1975 PA1_2_3_4_5_PG_1.8.JSON   See YouTube for explantory Video https://youtu.be/WIqtd1meQtQ. 
 
+As is always the way! I found some further information about the hop growers after I posted the video. Hop growers tend to be multi-generational, which is handy when trying to identify the area of hop growth and potentially the hop variety. The 1975 YOB PA2 Suppliers were Berry and Cotton. The Berry family are located in East Kent near Faversham, which narrowed the mean alpha-acid to 5.13% instead of the Kent average of 5.02%. The Cotton family are near Hereford, and changes the Fuggles mean alpha-acid to 4.34% from 4.52%. These changed values reduce the overall bittering result a tad.  See 1975 PA1_2_3_4_5_PG_1.9.JSON in the examples.
+
 ## Features
 - **Parti-Gyle Analysis:** Calculates Mass Balance, Pre-Boil SG, and Extract for multiple coppers (supports 2 or 3 copper setups).
 - **Advanced Calculations:** Uses the **Tinseth Formula** for IBU and **Morey Equation** for Color (EBC/SRM).
